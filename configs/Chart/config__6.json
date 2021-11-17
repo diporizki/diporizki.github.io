@@ -1,0 +1,65 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "BATAS_DESA_DESEMBER_2019_DUKCAPIL_DKI_JAKARTA_9698",
+      "mode": "feature",
+      "name": "Jumlah Penduduk",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "FID",
+      "valueFields": [
+        "JUMLAH_PEN",
+        "JUMLAH_KK"
+      ],
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    }
+  ]
+}
